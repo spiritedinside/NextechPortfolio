@@ -1,9 +1,43 @@
-#bgVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+body {
+    background-image: url('https://tint.creativemarket.com/wXEXSAbHSbED75peo8MVwBgknXaMIhSPIItVancgbNA/width:1200/height:800/gravity:nowe/rt:fill-down/el:1/czM6Ly9maWxlcy5jcmVhdGl2ZW1hcmtldC5jb20vaW1hZ2VzL3NjcmVlbnNob3RzL3Byb2R1Y3RzLzQyNDUvNDI0NTAvNDI0NTA4NzQvcGxhaWQtaW4tbGlnaHQtZ3JlZW4tYS1vLmpwZw?1691390679');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button1 {
+    border: black solid 1.5px;
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+    background-color: white;
+}
+
+.button1:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+.button2 {
+    background-color: white;
+    border: black solid 1.5px;
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.button2:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
 }
 
 .content {
