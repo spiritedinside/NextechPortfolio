@@ -40,6 +40,12 @@
     color: black;
 }
 
+footer {
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+
 #presenting {
     width: 400px;
     height: 400px;
@@ -546,21 +552,57 @@ ul a {
     float: right;
 }
 
-/* WIP */
+/* contact page */
 
-/* .contactBody {
-    font-family: "gorditas", serif;
+#contactDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#linkedin {
+    /* display: block; */
+    width: 200px;
+    height: 200px;
+}
+
+#linkedinDiv {
+    /* display: block; */
+    width: 200px;
+    height: 200px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+#workRun {
+    /* display: block; */
+    width: 200px;
+    height: 200px;
+}
+
+#git {
+    /* display: block; */
+    width: 200px;
+    height: 100px;
+}
+
+#gitDiv {
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 200px; */
+    height: 200px;
+}
+
+.contact-container {
+    padding: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    /* max-width: 500px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    } */
-
-.contact-container {
-    padding: 40px;
-    width: 100%;
-    max-width: 500px;
 }
 
 .contact-form h2 {
@@ -591,14 +633,10 @@ ul a {
     resize: none;
 }
 
-#message {
-
-}
-
 .btn {
     /* width: 100%; */
     padding: 10px;
-    background-color: #3498db;
+    background-color: green;
     color: white;
     border: none;
     border-radius: 5px;
@@ -608,8 +646,11 @@ ul a {
 }
 
 .btn:hover {
-    background-color: #2980b9;
-}
+    background-color: rgb(156, 255, 184);
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(187, 255, 166, 0.5), 0 6px 20px 0 rgba(133, 255, 167, 0.5);
+    color: black;}
 
 @media (max-width: 768px) {
     .contact-container {
@@ -635,4 +676,22 @@ ul a {
         font-size: 12px;
         padding: 6px;
     }
+}
+
+/* sources page */
+
+.sourceMain {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.contactDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+#gitDiv{
+    padding-top: 50px;
 }
